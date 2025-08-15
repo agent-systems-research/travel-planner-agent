@@ -1,0 +1,207 @@
+[
+  {
+    "id": "A1",
+    "name": "British Museum",
+    "city": "London",
+    "lat": 51.5194,
+    "lon": -0.127,
+    "category": "museum",
+    "est_time_mins": 120,
+    "est_cost": 0,
+    "open_hours": {
+      "Mon": [
+        10,
+        17
+      ],
+      "Tue": [
+        10,
+        17
+      ],
+      "Wed": [
+        10,
+        17
+      ],
+      "Thu": [
+        10,
+        17
+      ],
+      "Fri": [
+        10,
+        17
+      ],
+      "Sat": [
+        10,
+        17
+      ],
+      "Sun": [
+        10,
+        17
+      ]
+    },
+    "url": "https://www.britishmuseum.org/"
+  },
+  {
+    "id": "A2",
+    "name": "London Eye",
+    "city": "London",
+    "lat": 51.5033,
+    "lon": -0.1196,
+    "category": "attraction",
+    "est_time_mins": 60,
+    "est_cost": 35,
+    "open_hours": {
+      "Mon": [
+        10,
+        20
+      ],
+      "Tue": [
+        10,
+        20
+      ],
+      "Wed": [
+        10,
+        20
+      ],
+      "Thu": [
+        10,
+        20
+      ],
+      "Fri": [
+        10,
+        21
+      ],
+      "Sat": [
+        10,
+        21
+      ],
+      "Sun": [
+        10,
+        20
+      ]
+    },
+    "url": "https://www.londoneye.com/"
+  },
+  {
+    "id": "A3",
+    "name": "Borough Market Lunch",
+    "city": "London",
+    "lat": 51.5055,
+    "lon": -0.0911,
+    "category": "food",
+    "est_time_mins": 75,
+    "est_cost": 20,
+    "open_hours": {
+      "Mon": [
+        10,
+        17
+      ],
+      "Tue": [
+        10,
+        17
+      ],
+      "Wed": [
+        10,
+        17
+      ],
+      "Thu": [
+        10,
+        17
+      ],
+      "Fri": [
+        10,
+        18
+      ],
+      "Sat": [
+        10,
+        18
+      ],
+      "Sun": [
+        10,
+        16
+      ]
+    },
+    "url": "https://boroughmarket.org.uk/"
+  },
+  {
+    "id": "A4",
+    "name": "Tate Modern",
+    "city": "London",
+    "lat": 51.5076,
+    "lon": -0.0994,
+    "category": "museum",
+    "est_time_mins": 90,
+    "est_cost": 0,
+    "open_hours": {
+      "Mon": [
+        10,
+        18
+      ],
+      "Tue": [
+        10,
+        18
+      ],
+      "Wed": [
+        10,
+        18
+      ],
+      "Thu": [
+        10,
+        18
+      ],
+      "Fri": [
+        10,
+        18
+      ],
+      "Sat": [
+        10,
+        18
+      ],
+      "Sun": [
+        10,
+        18
+      ]
+    },
+    "url": "https://www.tate.org.uk/visit/tate-modern"
+  },
+  {
+    "id": "A5",
+    "name": "St James's Park Walk",
+    "city": "London",
+    "lat": 51.5025,
+    "lon": -0.1342,
+    "category": "outdoors",
+    "est_time_mins": 45,
+    "est_cost": 0,
+    "open_hours": {
+      "Mon": [
+        6,
+        23
+      ],
+      "Tue": [
+        6,
+        23
+      ],
+      "Wed": [
+        6,
+        23
+      ],
+      "Thu": [
+        6,
+        23
+      ],
+      "Fri": [
+        6,
+        23
+      ],
+      "Sat": [
+        6,
+        23
+      ],
+      "Sun": [
+        6,
+        23
+      ]
+    },
+    "url": "https://www.royalparks.org.uk/parks/st-jamess-park"
+  }
+]

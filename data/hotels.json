@@ -1,0 +1,32 @@
+[
+  {
+    "id": "H1",
+    "name": "City Central Inn",
+    "city": "London",
+    "lat": 51.509,
+    "lon": -0.135,
+    "nightly_price": 110,
+    "rating": 4.2,
+    "url": "https://example.com/hotel/city-central-inn"
+  },
+  {
+    "id": "H2",
+    "name": "Riverside Budget Hotel",
+    "city": "London",
+    "lat": 51.505,
+    "lon": -0.09,
+    "nightly_price": 80,
+    "rating": 3.8,
+    "url": "https://example.com/hotel/riverside-budget"
+  },
+  {
+    "id": "H3",
+    "name": "Museum District Suites",
+    "city": "London",
+    "lat": 51.496,
+    "lon": -0.172,
+    "nightly_price": 150,
+    "rating": 4.5,
+    "url": "https://example.com/hotel/museum-district"
+  }
+]

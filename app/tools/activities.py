@@ -1,16 +1,18 @@
-"""Activity/POI tool using local JSON data in `data/activities.json`."""
-import json, os, random
+import random
 from typing import List, Dict, Optional
-
-DATA = json.load(open(os.path.join(os.path.dirname(__file__), "..", "..", "data", "activities.json"), "r", encoding="utf-8"))
+from .geocode_live import geocode_city
+from .places_live import otm_pois
 
 def list_city_activities(city: str) -> List[Dict]:
-    return [a for a in DATA if a["city"].lower() == city.lower()]
+    """Live fetch from OpenTripMap, falling back to empty list."""
+    coords = geocode_city(city)
+    if not coords:
+        return []
+    lat, lon = coords
+    return otm_pois(lat, lon, radius_m=4000, kinds=None, limit=30)
 
 def top_pois(city: str, n: int = 5, categories: Optional[List[str]] = None) -> List[Dict]:
-    """Return `n` pseudo-random POIs, optionally filtered by category."""
     items = list_city_activities(city)
-    if categories:
-        items = [i for i in items if i["category"] in categories]
+    # Optionally filter by simple categories (we labeled all as 'attraction' above)
     random.shuffle(items)
     return items[:n]

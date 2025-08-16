@@ -9,15 +9,15 @@ import json
 def main():
     ci = ConversationInput(
         origin_city="London",
-        destination_city="London",
-        start_date="2025-08-15",
-        end_date="2025-08-17",
-        budget=Budget(currency="GBP", total=600),
+        destination_city="New York",
+        start_date="2025-08-16",
+        end_date="2025-08-20",
+        budget=Budget(currency="GBP", total=2000),
         party=Party(participants=[
             TravelerProfile(name="Alice", role="adult", prefs_museums=True, prefs_walkability="medium"),
             TravelerProfile(name="Bob", role="adult", prefs_museums=False, prefs_walkability="low"),
         ]),
-        must_see=["Tate Modern"],
+        must_see=["Statute of Liberty", "Central Park"],
         ask_missing=False
     )
     itinerary = run_pipeline(ci)

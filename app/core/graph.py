@@ -1,6 +1,6 @@
 """A tiny orchestrator that wires Planner → ToolCaller → Critic → Timebox → Reservations."""
 from .schemas import ConversationInput, Itinerary
-from ..agents.planner import plan_draft
+from ..agents.planner_llm import plan_with_llm as plan_draft
 from ..agents.tool_caller import enrich_with_maps_and_costs
 from ..agents.critic import review_itinerary
 from .timebox import schedule_day
